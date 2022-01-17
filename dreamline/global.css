@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+.firstFront {
+    position: absolute;
+    left: 0;
+    bottom: -25%;
+    width: 90%;
+    height: 50%;
+}
+.firstFrontBlank {
+    background-color: gray;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 20%;
+    bottom: -60%;
+}
+footer {
+    position: relative;
+    margin-top: 10rem;
+}
+.contact {
+    background-image: url(./assets/Bottom\ Front.png);
+    width: 70%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+   top: -25%;
+
+}
+
+
+.bar {
+    background-image: url(./assets/First\ Front.png);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 1rem;
+    /* font-size: 1.5rem; */
+    padding: 0.7rem;
+    margin-top: 0.5rem;
+}
+.nouse {
+    height: 65vh;
+}
+.firstFront {
+    height: 30%;
+    bottom: -20%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.left{
+    width: 50%;
+}
+.right {
+    width: 50%;
+}
+@media screen and (max-width: 700px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        background-position: center;
+    }
+    /* .firstFront {
+        width: 80%;
+        height: auto;
+    } */
+    .firstFrontBlank {
+        display: none;
+    }
+    .nouse{
+   height: 30vh;
+    }
+    .barImg {
+        width: 100%;
+    }
+.contact {
+    width: 80%;
+    top: -10%;
+}
+h4 {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+.col-1 p {
+    font-size: 0.7rem;
+}
+p{
+    font-size: 0.9rem;
+}
+.help{
+    flex-direction: column-reverse;
+}
+.left{
+    width: 70%;
+    margin: 0 auto;
+}
+.right{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.help-2 {
+    flex-direction: column !important;
+}
+.bar  {
+    font-size: 1rem !important;
+}
+}
